@@ -51,7 +51,7 @@ h3, h3 a {
     color: black;
 }
 
-p, a, li, label {
+p, a, li, label, input, textarea, button {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 100;
     font-size: 18px;
@@ -78,14 +78,16 @@ main {
     flex: 1;
 }
 
-.button {
+.button, button {
     padding: 9px 18px;
     background: #9A0000;
     color: white;
     display: inline-block;
+	text-decoration: none;
+	border: none;
 }
 
-textarea {
+textarea, input {
 	padding: 9px;
 	width: 30%;
 }
